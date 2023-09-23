@@ -69,6 +69,11 @@ where `φ` is the [golden ratio][golden-ratio].
 ## Usage
 
 ```javascript
+import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-nonfibonacci/tags). For example,
+
+```javascript
 import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@v0.1.0-esm/index.mjs';
 ```
 
@@ -150,7 +155,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@v0.1.0-esm/index.mjs';
+import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@esm/index.mjs';
 
 // Create an iterator:
 var opts = {
