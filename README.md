@@ -69,7 +69,7 @@ where `φ` is the [golden ratio][golden-ratio].
 ## Usage
 
 ```javascript
-import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@esm/index.mjs';
+import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@v0.2.3-esm/index.mjs';
 ```
 
 #### iterNonFibonacciSeq( \[options] )
@@ -150,7 +150,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@esm/index.mjs';
+import iterNonFibonacciSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonfibonacci@v0.2.3-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
